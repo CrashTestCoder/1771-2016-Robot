@@ -16,7 +16,7 @@ struct Transmission : motorController
 public:
 	explicit Transmission(int t1,int t2):
 		con1{new motorController(t1)},
-		con2{new motorController(t2)}
+		con2{new motorController(t2)}		// ERROR
 	{
 		con1->SetFeedbackDevice(CANTalon::QuadEncoder);
 		con1->SetControlMode(CANSpeedController::kCurrent);
