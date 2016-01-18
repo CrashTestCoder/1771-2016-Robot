@@ -29,8 +29,7 @@ private:
 	Joystick lstick,
 			 rstick;
 
-	Transmission<CANTalon> ltalon,
-						   rtalon;
+	Transmission<CANTalon> ltalon, rtalon;
 
 	Arm arm;
 };
