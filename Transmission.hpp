@@ -59,7 +59,7 @@ public:
 	}
 private:
 	CANTalon *con1,
-			 *con2;
+		 *con2;
 };
 
 #endif /* SRC_TRANSMISSION_HPP_ */
